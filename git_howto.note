@@ -1,0 +1,37 @@
+깃업 명령어 사용방법
+
+- git 명령어
+ repository 생성합니다.
+
+ github.com
+ gitlab.com
+
+-> id, pwd를 gmail 이메일로 생성
+
+ex)
+내 id: my id
+프로젝트 이름: proj001
+repository 주소: http://github.com/myid/proj001.git
+
+echo "# test1" >> README.md
+git init ->장바구니에 집어 넣기
+git status 
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git branch
+git remote add origin http://gitlab.com/cocotutorials/html5.git -> (원격지 주소) 집 주소
+git push -u origin main -> 넘기기
+
+
+-다른 방법
+...or push an existing repository from the command line
+git remote add origin http://gitlab.com/cocotutorials/html5.git
+git branch -M main
+
+
+git push -u origin main
+그런데 push는 github에서 token방식으로 password를 입력하도록 바꿔서 안됩니다.
+그래서 github desktop 에서 publishing(push) 합니다.
+ 
+
